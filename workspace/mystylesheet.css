@@ -1,0 +1,150 @@
+body{
+    font-family: sans-serif;
+    background: url(background-universe.jpg);
+    background-size: 100%;
+}
+
+#topheader{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    
+}
+#headerblock{
+    background-color: #428ff4;
+    padding: 1px;
+}
+.container_1    {
+ border: 10px ;
+    margin: 10px;
+    background-color: #d2d5db;
+}
+.container_2{
+    margin:15px;
+    margin-top:15px;
+}
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #428ff4;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.content {
+    background-color: #ddd;
+   
+    height: 400px; 
+}
+.mainimage{
+    height:400px;
+    
+}
+/* Create three equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    margin: 30px;
+}
+
+.column2 {
+    float: right;
+    width: 33.33%;
+    padding: 10px;
+    margin: 30px;
+    }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+/* ebus1.php */
+
+#subtotal{
+    text-align:right;
+    position:fixed;
+    left:41%;
+    width:100px;
+}
+#discount{
+    width:100px;
+    position:fixed;
+    left:41%;
+    text-align:right;
+}
+#vat{
+    position:fixed;
+    text-align:right;
+    width:100px;
+    left:41%;
+}
+#total{
+    position:fixed;
+    text-align:right;
+    width:100px;
+    left:41%;
+}
+#clearchoice{
+    
+    font-size:13pt;
+    color:white;
+    text-decoration:none;
+    font-family:sans-serif;
+
+}
+#btnProceed{
+    background-color:green;
+    font-size:13pt;
+    color:white;
+    font-family:sans-serif;
+}
+#btnCalculateTotal{
+    font-size:13pt;
+    color:white;
+    
+}

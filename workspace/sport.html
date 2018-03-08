@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("slow");
+    });
+});
+</script>
+
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color:  #333;
+    border: solid 1px #c3c3c3;
+    color: white;
+}
+
+#panel {
+    padding: 30px;
+    display: none;
+}
+#panel1, #flip1 {
+    padding: 5px;
+    text-align: center;
+    background-color:  #333;
+    border: solid 1px #c3c3c3;
+    color: white;
+}
+
+#panel1 {
+    padding: 30px;
+    display: none;
+}
+#clickfor {
+  color:white;
+}
+</style>
+</head>
+<body>
+    <ul>
+    <li><a href="homepage.html">IS1113 Project</a></li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
+    <div class="dropdown-content">
+      <a href="cv_page1.html">Personal</a>
+      <a href="cv_page2.html">Education</a></a>
+      <a href="cv_page3.html">Work Experience</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Interests/Hobbies</a>
+    <div class="dropdown-content">
+      <a href="sport.html">Sport</a>
+      <a href="travel.html">Travel</a></a>
+      <a href="#cloudservice">Cloud Services</a>
+    </div>
+  </li>
+  <li><a href="#aboutcloud">About Cloud</a></li>
+  
+</ul>
+ 
+
+ <p><span id="clickfor"><b>Click each of the blocks for more information:</span></p>
+ 
+<div id="flip">
+  <br />
+  <span><b>Golf</b></span>
+  <br />
+  <br />
+</div>
+
+<span> 
+   
+<div id="panel">
+    I've been playing golf for 6 years now, recreationally and competitively. <br/>
+    I am a member of Muskerry Golf Club, where I try to play at least once a week.
+    Unfortunately, because of college I don't get to play as often as I used to, but 
+    during the summer I always find time to get play a few holes at least 4 times a week.</span>
+  </div>
+<br />
+
+<div id="flip1">
+  <br />
+  <span><b>Soccer</b></span>
+  <br />
+  <br />
+</div>
+<span> 
+   
+<div id="panel1">
+    All my life I have been playing football. <br/>
+    Football was the first sport I ever played. There would be days when there 
+    was nothing to do, so my friends and I would just go to the field and play 
+    football all day long; in some instances we would stay out there all night too. 
+    Football has also provided me with a lot of memories that I will never forget,
+    and it has solidified many friendships in my life.</span>
+  </div>
+  
+</body>
+</html>
+
