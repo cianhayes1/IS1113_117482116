@@ -35,7 +35,7 @@ session_start();
         
       
         
-        <ul>
+       <ul>
     <li><a href="homepage.html">IS1113 Project</a></li>
     <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
@@ -50,9 +50,10 @@ session_start();
     <div class="dropdown-content">
       <a href="sport.html">Sport</a>
       <a href="travel.html">Travel</a></a>
+      <a href="aboutcloud.html">About Cloud</a>
     </div>
   </li>
-  <li><a href="ebus1.php">Cloud Sevices</a></li>
+  <li><a href="ebus1.php">Cloud Services</a></li>
   
 </ul>
               

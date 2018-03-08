@@ -40,7 +40,7 @@
     <body>
       
         
-        <ul>
+       <ul>
     <li><a href="homepage.html">IS1113 Project</a></li>
     <li class="dropdown">
     <a href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
@@ -55,10 +55,10 @@
     <div class="dropdown-content">
       <a href="sport.html">Sport</a>
       <a href="travel.html">Travel</a></a>
-      <a href="#cloudservice">Cloud Services</a>
+      <a href="aboutcloud.html">About Cloud</a>
     </div>
   </li>
-  <li><a href="ebus1.php">About Cloud</a></li>
+  <li><a href="ebus1.php">Cloud Services</a></li>
   
 </ul>
               
