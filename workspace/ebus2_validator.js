@@ -18,7 +18,7 @@ function validateDetails(){
     }
     
    else if (String(pin).length < 4){
-        alert("Please make sure your PIN is accurate");
+        alert("Please retry pin");
     }
     
    else if (name == ""){
@@ -26,7 +26,7 @@ function validateDetails(){
     }
     
    else if (email == ""){
-        alert("Please enter your email");
+        alert("Please enter your e-mail");
     }
     else{
         enablebtnPurchase();
