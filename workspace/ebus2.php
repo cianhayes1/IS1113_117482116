@@ -20,7 +20,7 @@ session_start();
           #payment-details{
                     position:fixed;
                     top:30%;
-                    left:20%;
+                    left:40%;
                     z-index:1;
                     color:white;
                    

@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
         
         <!--jQuery-->
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="costcalc.js"></script>
         
@@ -18,11 +19,10 @@
           #products{
                     position:fixed;
                     top:29%;
-                    left:25%;
+                    left:15%;
                     z-index:1;
                     color:white;
                     background-color:#428ff4;
-                    
                     padding:1%;
                     width:45%;
                    font-size:11pt;
@@ -64,7 +64,7 @@
               
             <div id="products">
           
-              <h3>Select a Product</h3>
+              <h3>Please Choose a Product</h3>
           
             
             <form method="POST" action="ebus2.php">
